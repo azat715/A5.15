@@ -1,5 +1,6 @@
 .body {
     margin: 0;
+    background-color: #e0e0e0;
 }
 
 .header {
@@ -35,6 +36,36 @@
     display: flex;
     width: 1249px;
     margin: 103px 164px 0px 166px;
+}
+
+.intro-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top; 
+    margin-right: 68px;
+}
+
+.intro-wrapper h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.intro-text {
+    margin-bottom: 58px;
+    opacity: 0.7; 
+}
+
+.contact-link {
+    color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
 }
 
 .intro-image {
